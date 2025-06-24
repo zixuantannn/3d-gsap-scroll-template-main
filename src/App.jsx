@@ -34,7 +34,7 @@ function App() {
       })
       .to(sceneRef.current, {
         ease: "none",
-        x: '-25vw',
+        x: '-25vw', //means shift left
         y: '200vh',
       })
       .to(sceneRef.current, {

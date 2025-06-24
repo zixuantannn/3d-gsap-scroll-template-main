@@ -14,7 +14,7 @@ const Scene = ({ progress }) => {
     useFrame(() => {
         // console.log("Camera position:", cameraRef.current.position);
         cameraRef.current.lookAt(0, 0, 0)
-    })
+    }) // this starts the object at the center
 
     useEffect(() => {
 
