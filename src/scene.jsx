@@ -3,7 +3,7 @@ import { useFrame } from '@react-three/fiber';
 import { Environment, PerspectiveCamera, OrbitControls } from '@react-three/drei';
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Lucy } from './lucy';
+import { Kevin } from './Kevin';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,9 +70,8 @@ const Scene = ({ progress }) => {
 
             />
             <Environment preset="city" />
-            <Lucy />
+            <Kevin />
             <axesHelper args={[500]} />
-
         </>
     )
 }

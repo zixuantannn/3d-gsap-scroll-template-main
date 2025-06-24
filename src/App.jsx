@@ -67,12 +67,12 @@ function App() {
   </div>
 </section>
           <section className="relative flex items-center justify-center h-[100vh]">
-          {/* Lucy */}
+          {/* Kevin */}
           {progress < 0.10 && (
             <>
               <div className="fixed inset-0 bg-black/50 z-10 pointer-events-none"></div>
               <p className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mx-4 w-fit text-9xl font-bold text-white text-center z-20 pointer-events-none">
-                Lucy
+                Kevin
               </p>
             </>
           )}
